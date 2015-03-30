@@ -1,0 +1,15 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:themes="using:Em.UI.Themes">
+
+    <x:String x:Key="ThemeDescription">This theme is installed to Package.Current.InstalledLocation</x:String>
+    
+    <ElementTheme x:Key="ElementTheme">Dark</ElementTheme>
+
+    <SolidColorBrush x:Key="ThemeAccentBrush" Color="CadetBlue"/>
+    <SolidColorBrush x:Key="ThemeBackgroundBrush" Color="#000066"/>
+    <FontFamily x:Key="ThemeFontFamily">Comic Sans MS</FontFamily>
+    
+    <x:String x:Key="FileUri">ms-appx:///theme/hello.png</x:String>
+</ResourceDictionary>

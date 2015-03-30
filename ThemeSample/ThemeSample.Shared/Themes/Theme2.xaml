@@ -1,0 +1,14 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <x:String x:Key="ThemeDescription">This theme is installed to Package.Current.InstalledLocation</x:String>
+    
+    <ElementTheme x:Key="ElementTheme">Light</ElementTheme>
+    
+    <SolidColorBrush x:Key="ThemeAccentBrush" Color="Orange"/>
+    <SolidColorBrush x:Key="ThemeBackgroundBrush" Color="Orchid"/>
+    <FontFamily x:Key="ThemeFontFamily">Impact</FontFamily>
+    
+    <x:String x:Key="FileUri">ms-appx:///theme/hello.png</x:String>
+</ResourceDictionary>
